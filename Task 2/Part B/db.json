@@ -1,0 +1,64 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "cal",
+            "password": "123",
+            "type": "staff"
+        },
+        {
+            "id": 2,
+            "name": "joe",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 3,
+            "name": "jane",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 4,
+            "name": "jim",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 5,
+            "name": "jill",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 6,
+            "name": "jerry",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 7,
+            "name": "jess",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 8,
+            "name": "jenny",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 9,
+            "name": "josh",
+            "password": "123",
+            "type": "student"
+        },
+        {
+            "id": 10,
+            "name": "julie",
+            "password": "123",
+            "type": "student"
+        }
+    ]
+}

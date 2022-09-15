@@ -1,0 +1,4 @@
+{
+    "exec": "py main.py",
+    "ext": "py,json"
+}
