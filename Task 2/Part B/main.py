@@ -10,6 +10,7 @@ root.withdraw() # Hide the window
 
 # Configure the window
 root.title("Library")
+root.resizable(False, False)
 
 
 # Set the window size based on the screen size
@@ -21,6 +22,7 @@ window_height = int(screen_height * 0.5)
 window_x = int((screen_width / 2) - (window_width / 2))
 window_y = int((screen_height / 2) - (window_height / 2))
 
+
 root.geometry(f"{window_width}x{window_height}+{window_x}+{window_y}")
 root.window_width = window_width
 root.window_height = window_height
@@ -28,7 +30,7 @@ root.window_height = window_height
 
 # Make tabs
 tab = ttk.Notebook(root)
-tab.grid(row=1, column=1)
+tab.place(x=0, y=0)
 root.tab = tab
 
 tab.add(gui.library_tab(root), text="Library")
