@@ -4,493 +4,51 @@
             "id": 0,
             "name": "Noreen",
             "password": "6323c62c672450cc407e7fc7",
-            "type": "student"
+            "type": "student",
+            "books": []
         },
         {
             "id": 1,
             "name": "Kerri",
             "password": "6323c62c72ff2e5ab51d1a41",
-            "type": "staff"
+            "type": "staff",
+            "books": []
         },
         {
             "id": 2,
             "name": "Maldonado",
             "password": "6323c62c9ce65a15acb45085",
-            "type": "student"
+            "type": "student",
+            "books": []
         },
         {
             "id": 3,
             "name": "Kristin",
             "password": "6323c62ccda5e6e481465ab8",
-            "type": "student"
+            "type": "student",
+            "books": []
         },
         {
             "id": 4,
             "name": "Cleo",
             "password": "6323c62c560a20ddd2c127ed",
-            "type": "staff"
+            "type": "staff",
+            "books": []
         },
         {
             "id": 5,
             "name": "Helga",
             "password": "6323c62cb232ede7573f5baa",
-            "type": "student"
+            "type": "student",
+            "books": []
         },
         {
             "id": 6,
-            "name": "Navarro",
-            "password": "6323c62cbdc0fd2c9bd90a67",
-            "type": "staff"
-        },
-        {
-            "id": 7,
-            "name": "Brennan",
-            "password": "6323c62cad68cf17a17ef2fb",
-            "type": "student"
-        },
-        {
-            "id": 8,
-            "name": "Horton",
-            "password": "6323c62c1a472e68a4a2827a",
-            "type": "student"
-        },
-        {
-            "id": 9,
-            "name": "Burris",
-            "password": "6323c62cd95e054fd8bca307",
-            "type": "staff"
-        },
-        {
-            "id": 10,
-            "name": "Louisa",
-            "password": "6323c62c6dd07094276c3d11",
-            "type": "student"
-        },
-        {
-            "id": 11,
-            "name": "Bruce",
-            "password": "6323c62c72ff60686b13b4bd",
-            "type": "student"
-        },
-        {
-            "id": 12,
-            "name": "Marylou",
-            "password": "6323c62cdcaab766e0061df5",
-            "type": "staff"
-        },
-        {
-            "id": 13,
-            "name": "Eula",
-            "password": "6323c62c6ff4b40998af2beb",
-            "type": "staff"
-        },
-        {
-            "id": 14,
-            "name": "John",
-            "password": "6323c62cfee44cfd09fbd7d6",
-            "type": "student"
-        },
-        {
-            "id": 15,
-            "name": "Houston",
-            "password": "6323c62c9b4b0451fc198967",
-            "type": "student"
-        },
-        {
-            "id": 16,
-            "name": "Vaughn",
-            "password": "6323c62cb840e0f70872c206",
-            "type": "student"
-        },
-        {
-            "id": 17,
-            "name": "Henry",
-            "password": "6323c62c4f680d05fa6ae6aa",
-            "type": "staff"
-        },
-        {
-            "id": 18,
-            "name": "Ora",
-            "password": "6323c62c0043d04d36af12ba",
-            "type": "staff"
-        },
-        {
-            "id": 19,
-            "name": "Misty",
-            "password": "6323c62cd3804f02ed97f1a3",
-            "type": "staff"
-        },
-        {
-            "id": 20,
-            "name": "Noelle",
-            "password": "6323c62c37942d8d93f753c7",
-            "type": "student"
-        },
-        {
-            "id": 21,
-            "name": "Ewing",
-            "password": "6323c62c030dc23dee3cd90f",
-            "type": "student"
-        },
-        {
-            "id": 22,
-            "name": "Rosales",
-            "password": "6323c62c25bf11f5950365de",
-            "type": "staff"
-        },
-        {
-            "id": 23,
-            "name": "Conley",
-            "password": "6323c62c0674f99af2dc64d7",
-            "type": "staff"
-        },
-        {
-            "id": 24,
-            "name": "Rosario",
-            "password": "6323c62cf7ae7dae930226a3",
-            "type": "staff"
-        },
-        {
-            "id": 25,
-            "name": "Schultz",
-            "password": "6323c62cef393fa1cb2a219a",
-            "type": "staff"
-        },
-        {
-            "id": 26,
-            "name": "Pate",
-            "password": "6323c62cb508a79b0cf2848f",
-            "type": "staff"
-        },
-        {
-            "id": 27,
-            "name": "Ballard",
-            "password": "6323c62c01fdfeb3f0f1688e",
-            "type": "staff"
-        },
-        {
-            "id": 28,
-            "name": "Cannon",
-            "password": "6323c62c8b647f30058fa305",
-            "type": "student"
-        },
-        {
-            "id": 29,
-            "name": "Chaney",
-            "password": "6323c62cdceefa5ef7b61675",
-            "type": "student"
-        },
-        {
-            "id": 30,
-            "name": "Sophia",
-            "password": "6323c62c9c2655091ce7851c",
-            "type": "staff"
-        },
-        {
-            "id": 31,
-            "name": "Tara",
-            "password": "6323c62c05dcb65fbb9eef5d",
-            "type": "staff"
-        },
-        {
-            "id": 32,
-            "name": "Hewitt",
-            "password": "6323c62c6a440f7c17b1e8d7",
-            "type": "staff"
-        },
-        {
-            "id": 33,
-            "name": "Tran",
-            "password": "6323c62c8c147f2e05a96856",
-            "type": "student"
-        },
-        {
-            "id": 34,
-            "name": "Kathie",
-            "password": "6323c62cd6735d4990eef11b",
-            "type": "student"
-        },
-        {
-            "id": 35,
-            "name": "Cook",
-            "password": "6323c62c2796206b33a11e14",
-            "type": "student"
-        },
-        {
-            "id": 36,
-            "name": "Marisa",
-            "password": "6323c62c8853ed03d6159070",
-            "type": "staff"
-        },
-        {
-            "id": 37,
-            "name": "Manuela",
-            "password": "6323c62c973dcd0444c4c0a0",
-            "type": "student"
-        },
-        {
-            "id": 38,
-            "name": "Chang",
-            "password": "6323c62c9d22d208a96090c6",
-            "type": "student"
-        },
-        {
-            "id": 39,
-            "name": "Cervantes",
-            "password": "6323c62cb7a9fb4d9d279def",
-            "type": "student"
-        },
-        {
-            "id": 40,
-            "name": "Chapman",
-            "password": "6323c62cbeaf0b9b98546370",
-            "type": "staff"
-        },
-        {
-            "id": 41,
-            "name": "Terra",
-            "password": "6323c62c12c5b4309d74eab1",
-            "type": "staff"
-        },
-        {
-            "id": 42,
-            "name": "Hawkins",
-            "password": "6323c62cae1073394563830f",
-            "type": "student"
-        },
-        {
-            "id": 43,
-            "name": "Greene",
-            "password": "6323c62c22473245bb251c3d",
-            "type": "student"
-        },
-        {
-            "id": 44,
-            "name": "Schwartz",
-            "password": "6323c62ce4ac94fcb0ccb58d",
-            "type": "student"
-        },
-        {
-            "id": 45,
-            "name": "Ursula",
-            "password": "6323c62ca7ed286bd15096e9",
-            "type": "staff"
-        },
-        {
-            "id": 46,
-            "name": "Hayden",
-            "password": "6323c62c9b15814fe04c0e0b",
-            "type": "student"
-        },
-        {
-            "id": 47,
-            "name": "Annmarie",
-            "password": "6323c62c69bbc93d46d021ef",
-            "type": "staff"
-        },
-        {
-            "id": 48,
-            "name": "Meyers",
-            "password": "6323c62cbb9d9cbd1a5e2b58",
-            "type": "staff"
-        },
-        {
-            "id": 49,
-            "name": "Campbell",
-            "password": "6323c62c1f8ec787c9ca858b",
-            "type": "staff"
-        },
-        {
-            "id": 50,
-            "name": "Logan",
-            "password": "6323c62c26e6d9ab838ef6d5",
-            "type": "staff"
-        },
-        {
-            "id": 51,
-            "name": "Krystal",
-            "password": "6323c62c534e891d32aca7c1",
-            "type": "staff"
-        },
-        {
-            "id": 52,
-            "name": "Berry",
-            "password": "6323c62cc39f10fc84ac8aeb",
-            "type": "student"
-        },
-        {
-            "id": 53,
-            "name": "Wolf",
-            "password": "6323c62c593d28692e9af134",
-            "type": "student"
-        },
-        {
-            "id": 54,
-            "name": "Hensley",
-            "password": "6323c62c0f908737f2690429",
-            "type": "student"
-        },
-        {
-            "id": 55,
-            "name": "Kennedy",
-            "password": "6323c62c2fa7d6cd54a977b9",
-            "type": "student"
-        },
-        {
-            "id": 56,
-            "name": "Jensen",
-            "password": "6323c62c10786c32376fc05e",
-            "type": "student"
-        },
-        {
-            "id": 57,
-            "name": "Bernard",
-            "password": "6323c62c602427c8042f16e1",
-            "type": "student"
-        },
-        {
-            "id": 58,
-            "name": "Liliana",
-            "password": "6323c62c7399741fe36b8395",
-            "type": "student"
-        },
-        {
-            "id": 59,
-            "name": "Melton",
-            "password": "6323c62ca65bc029b25289df",
-            "type": "student"
-        },
-        {
-            "id": 60,
-            "name": "Shawna",
-            "password": "6323c62cac19f8d4affae1c0",
-            "type": "student"
-        },
-        {
-            "id": 61,
-            "name": "Arlene",
-            "password": "6323c62c1f4205cac7130f13",
-            "type": "student"
-        },
-        {
-            "id": 62,
-            "name": "Lorrie",
-            "password": "6323c62c5a170ce3ec6e05cd",
-            "type": "staff"
-        },
-        {
-            "id": 63,
-            "name": "Raymond",
-            "password": "6323c62c9e690386a88e2ffa",
-            "type": "staff"
-        },
-        {
-            "id": 64,
-            "name": "Lang",
-            "password": "6323c62c3f410c36ddcabbf9",
-            "type": "student"
-        },
-        {
-            "id": 65,
-            "name": "Veronica",
-            "password": "6323c62cbac6e74d6c50475e",
-            "type": "staff"
-        },
-        {
-            "id": 66,
-            "name": "Flowers",
-            "password": "6323c62ccdc1a897145ab642",
-            "type": "student"
-        },
-        {
-            "id": 67,
-            "name": "Anna",
-            "password": "6323c62c2793048cdbde0ce4",
-            "type": "staff"
-        },
-        {
-            "id": 68,
-            "name": "Jerry",
-            "password": "6323c62cb9f5bfd4962a4eb9",
-            "type": "staff"
-        },
-        {
-            "id": 69,
-            "name": "Moran",
-            "password": "6323c62cbef0ed6ef15c3bdc",
-            "type": "staff"
-        },
-        {
-            "id": 70,
-            "name": "Angel",
-            "password": "6323c62cc16afbe8922079a4",
-            "type": "student"
-        },
-        {
-            "id": 71,
-            "name": "Sosa",
-            "password": "6323c62c771e124bff01b2b6",
-            "type": "student"
-        },
-        {
-            "id": 72,
-            "name": "Lily",
-            "password": "6323c62cd7247799aff67fdc",
-            "type": "staff"
-        },
-        {
-            "id": 73,
-            "name": "Jordan",
-            "password": "6323c62caab56e6b521aea88",
-            "type": "student"
-        },
-        {
-            "id": 74,
-            "name": "Quinn",
-            "password": "6323c62ca9ded1345412b64e",
-            "type": "staff"
-        },
-        {
-            "id": 75,
-            "name": "Love",
-            "password": "6323c62cfc34291675a1ad81",
-            "type": "staff"
-        },
-        {
-            "id": 76,
-            "name": "Christensen",
-            "password": "6323c62cef0fa4151823d38a",
-            "type": "staff"
-        },
-        {
-            "id": 77,
-            "name": "Elsie",
-            "password": "6323c62ca2c7321748bb47c4",
-            "type": "staff"
-        },
-        {
-            "id": 78,
-            "name": "Minerva",
-            "password": "6323c62c2d1cf6ea1e4d3dcc",
-            "type": "student"
-        },
-        {
-            "id": 79,
-            "name": "Hope",
-            "password": "6323c62c8868b2a211dd0605",
-            "type": "staff"
-        },
-        {
-            "id": 80,
-            "name": "Downs",
-            "password": "6323c62c25706ebf5eb19ca5",
-            "type": "student"
-        },
-        {
-            "id": 81,
-            "name": "cal",
+            "name": "callum",
             "password": "",
-            "type": "staff"
+            "type": "staff",
+            "books": []
         }
     ]
 }
+
