@@ -12,7 +12,7 @@ def get_user(uid):
         return None
 
     for user in users:
-        if user["id"] == uid:
+        if str(user["id"]) == str(uid):
             return user
 
     return None
