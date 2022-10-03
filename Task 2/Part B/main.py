@@ -2,6 +2,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 import sv_ttk
 import gui
+import users
 
 
 root = tk.Tk()
@@ -33,12 +34,13 @@ tab = ttk.Notebook(root)
 tab.place(x=0, y=0)
 root.tab = tab
 
+# Show the login screen
+gui.login(root)
+
+# Add tabs
 tab.add(gui.library_tab(root), text="Library")
 tab.add(gui.account_tab(root), text="Account")
 
-
-# Show the login screen
-gui.login(root)
 
 
 # Start the main loop
