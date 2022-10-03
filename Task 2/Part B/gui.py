@@ -52,7 +52,6 @@ def login(root):
     # Add the staff tab if the user is a staff member
     if users.is_staff(user["id"]):
         root.tab.add(staff_tab(root), text="Staff")
-        # root.menu.add_command(label="Staff", command=lambda: staff_tab(root))
     
     # Show the main window
     root.deiconify()
@@ -116,8 +115,8 @@ def staff_tab(root):
     """
     Total Staff
     """
-    totalStudentsFrame = tk.Frame(frame, bg="#2f2f2f")
-    totalStudentsFrame.place(x=900, y=60, width=261, height=141)
+    totalStaffFrame = tk.Frame(frame, bg="#2f2f2f")
+    totalStaffFrame.place(x=900, y=60, width=261, height=141)
 
     totalStaffCanvas = tk.Canvas(frame)
     totalStaffCanvas.place(x=900, y=60, width=261, height=141)
@@ -169,4 +168,102 @@ def staff_tab(root):
 
 # The account tab
 def account_tab(root):
-    return ttk.Frame(root.tab, width=root.window_width, height=root.window_height)
+    frame = ttk.Frame(root.tab, width=root.window_width, height=root.window_height)
+
+    userID = root.user["id"]
+    userName = root.user["name"]
+    userType = root.user["type"]
+
+
+    """
+    ID
+    """
+    userIDFrame = tk.Frame(frame, bg="#2f2f2f")
+    userIDFrame.place(x=140, y=60, width=261, height=141)
+
+    userIDCanvas = tk.Canvas(frame)
+    userIDCanvas.place(x=140, y=60, width=261, height=141)
+    round_rectangle(userIDCanvas, 5, 5, 261-5, 141-5, radius=20, fill="#2f2f2f")
+
+    userIDLabel = tk.Label(frame, bg="#2f2f2f", text="ID")
+    userIDLabel["font"] = font.Font(family="Ariel", size=11, weight="bold")
+    userIDLabel.place(x=160, y=79, width=101, height=22)
+
+    userIDValue = tk.Label(frame, bg="#2f2f2f", text=userID)
+    userIDValue["font"] = font.Font(family="Ariel", size=11, weight="bold")
+    userIDValue.place(x=240, y=107, width=61, height=54)
+
+
+    """
+    Name
+    """
+    userNameFrame = tk.Frame(frame, bg="#2f2f2f")
+    userNameFrame.place(x=520, y=60, width=261, height=141)
+
+    userNameCanvas = tk.Canvas(frame)
+    userNameCanvas.place(x=520, y=60, width=261, height=141)
+    round_rectangle(userNameCanvas, 5, 5, 261-5, 141-5, radius=20, fill="#2f2f2f")
+
+    userNameLabel = tk.Label(frame, bg="#2f2f2f", text="Total Students")
+    userNameLabel["font"] = font.Font(family="Ariel", size=11, weight="bold")
+    userNameLabel.place(x=540, y=79, width=121, height=20)
+
+    userNameValue = tk.Label(frame, bg="#2f2f2f", text=userName)
+    userNameValue["font"] = font.Font(family="Ariel", size=11, weight="bold")
+    userNameValue.place(x=620, y=107, width=61, height=54)
+
+
+    """
+    Account Type
+    """
+    userAccountTypeFrame = tk.Frame(frame, bg="#2f2f2f")
+    userAccountTypeFrame.place(x=900, y=60, width=261, height=141)
+
+    userAccountTypeCanvas = tk.Canvas(frame)
+    userAccountTypeCanvas.place(x=900, y=60, width=261, height=141)
+    round_rectangle(userAccountTypeCanvas, 5, 5, 261-5, 141-5, radius=20, fill="#2f2f2f")
+
+    userAccountTypeLabel = tk.Label(frame, bg="#2f2f2f", text="Total Staff")
+    userAccountTypeLabel["font"] = font.Font(family="Ariel", size=11, weight="bold")
+    userAccountTypeLabel.place(x=920, y=78, width=101, height=22)
+
+    userAccountTypeValue = tk.Label(frame, bg="#2f2f2f", text=userType)
+    userAccountTypeValue["font"] = font.Font(family="Ariel", size=11, weight="bold")
+    userAccountTypeValue.place(x=1000, y=107, width=61, height=54)
+
+
+    """
+    My Books
+    """
+    myBooksFrame = tk.Frame(frame, bg="#2f2f2f")
+    myBooksFrame.place(x=140, y=260, width=1021, height=361)
+
+    myBooksCanvas = tk.Canvas(frame)
+    myBooksCanvas.place(x=140, y=260, width=1021, height=361)
+    round_rectangle(myBooksCanvas, 5, 5, 1021-5, 361-5, radius=20, fill="#2f2f2f")
+
+    myBooksLabel = tk.Label(frame, bg="#2f2f2f", text="My Books")
+    myBooksLabel["font"] = font.Font(family="Ariel", size=11, weight="bold")
+    myBooksLabel.place(x=160, y=280, width=71, height=20)
+
+    myBooksTreeView = ttk.Treeview(frame)
+    myBooksTreeView["columns"] = ("1", "2", "3")
+    myBooksTreeView["show"] = "headings"
+
+    myBooksTreeView.heading("1", text="id")
+    myBooksTreeView.heading("2", text="name")
+    myBooksTreeView.heading("3", text="type")
+
+    myBooksTreeView.column("1", width=100, stretch=False)
+    
+    # for user in allUsers:
+    #     myBooksTreeView.insert("", "end", values=(user["id"], user["name"], user["type"]))
+    myBooksTreeView.insert("", "end", values=(root.user["id"], root.user["name"], root.user["type"]))
+
+    # Block the user from editing the treeview columns
+    myBooksTreeView.bind("<Button-1>", lambda e: myBooksTreeView.identify_region(e.x, e.y) == "separator" and "break")
+
+    # Place the treeview
+    myBooksTreeView.place(x=160, y=320, width=981, height=281)
+
+    return frame
